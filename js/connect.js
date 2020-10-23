@@ -45,9 +45,11 @@ function searchUsers(type) {
                 if (userSingle[0].login != undefined && type == 'users') {
                     show.innerHTML = ` 
                         <article class="show__article">
+                        <a class="show__link"href="https://github.com/${link}">
                             <img src="${userSingle[0].avatar_url}" class="show__img" alt=""> 
                         
-                            <h2 class="show__title">${userSingle[0].name}</h2>
+                             <h2 class="show__title">${userSingle[0].name}</h2>
+                        </a>
                             <div>
                             <button class="show__button" onclick="searchUsers('repo')">Repositorios</button>
                             <button class="show__button" onclick="searchUsers('starred')">Starred</button>

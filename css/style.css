@@ -58,6 +58,15 @@
 
     border-radius: 100%;
 }
+.show__link{
+    text-decoration: none;
+}
+
+.show__title{
+    color:black;
+    
+    
+}
 
 .show__button{
     margin: 10px 0px;
@@ -69,6 +78,7 @@
     color: white;
     background-color: rgb(45, 177, 45);
 }
+
 
 
 
