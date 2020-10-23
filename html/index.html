@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consumindo API's do github</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -14,15 +16,16 @@
 
 
     <main>
+        <!--Esta section faz a pesquisa do usuario-->
         <section class="search">
             <input type="text" class="search__input" id='user'>
-            <button onclick="searchUsers('users')" class="search__button" id="search">pesquisar</button>
+            <button onclick="searchUsers('users')" class="search__button" id="search">Pesquisar</button>
         </section>
-
+        <!--Esta section de id:show mostra o usuario digitado na barra de pesquisa-->
         <section id="show" class="show">
 
         </section>
-
+        <!--Esta section de id:list mostra os repositorios criados e visitados pelo usuario-->
         <section id="list" class="list">
 
         </section>
